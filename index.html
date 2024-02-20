@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link
+      rel="icon"
+      href="https://www.ecole-multimedia.com/data/lecole-multimedia-logo.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="assets/css/product.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="right">
+        <div class="bloc">
+          <img
+            src="https://www.ecole-multimedia.com/data/lecole-multimedia-logo.png"
+            height="50px"
+            alt=""
+          />
+          <h1>École multimédia</h1>
+          <div class="price-infos">
+            <div class="price">
+              <p><span>€</span>1900</p>
+            </div>
+            <div class="tax">
+              <span>Avance scolarité</span>
+              <span>Toutes taxes incluses</span>
+            </div>
+          </div>
+
+          <div class="description">
+            <p>
+              L'École Multimédia a le plaisir de vous informer que Djedjed
+              vavoux ange-marhial Alan a été admis(e) en 3ème année
+              développement Web et application dans notre établissement.
+            </p>
+            <br />
+            <p>
+              Soucieuse de garantir l'accès à l'éducation pour tous les
+              étudiants talentueux, l'École Multimédia propose des solutions de
+              financement personnalisées. C'est pourquoi nous vous offrons la
+              possibilité de solliciter une avance de frais de scolarité pour
+              Djedjed vavoux ange-marhial Alan.
+            </p>
+            <br />
+            <p>
+              Cette avance, d'un montant de 1900 euros, permettra à Djedjed
+              vavoux ange-marhial Alan de s'inscrire et de poursuivre ses études
+              dans notre établissement.
+            </p>
+          </div>
+
+          <div id="paypal-payment-button"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SI TU SOUHAITES VOIR LE BOUTON PAYPAL, IL FAUT REMPLACER "TON_ID_ICI" PAR TON CLIENT-ID PAYPAL AFIN DE RECEVOIR LES PAIEMENTS-->
+    <script src="https://www.paypal.com/sdk/js?client-id=AaBVUorQmum0MfvnVVJfaSPNM_4HUC4yiYFucUER8sntMGlzwq8HtJRapJIm2ZU_v_uqbxyfzf7OxxFPcurrency=EUR"></script>
+    <script src="paypal.js"></script>
+  </body>
+</html>
